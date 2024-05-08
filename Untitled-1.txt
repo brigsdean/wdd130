@@ -1,3 +1,0 @@
-git config --global user.name "Brigham Dean"
-git config --global user.email "Briggs-dean@outlook.com"
-git commit -m 'message'
