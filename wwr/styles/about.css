@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap');
 
 :root {
-  --primary-color: #264653;
-  --secondary-color: #2A9D8F;
-  --accent1-color: #9561f4;
-  --accent2-color: #E76F51;
+  --primary-color: #5b85aa;
+  --secondary-color: #414770;
+  --accent1-color: #372248;
+  --accent2-color: #f46036;
 
   --heading-font: 'Merriweather', sans-serif;
   --paragraph-font: 'Roboto', sans-serif;
 
-  --nav-background-color: #264653;
-  --nav-link-color: #2A9D8F;
+  --nav-background-color: #5b85aa;
+  --nav-link-color: #414770;
   --nav-hover-link-color: #F4A261;
-  --nav-hover-background-color: #E76F51;
+  --nav-hover-background-color: #f46036;
 }
 
 body {
@@ -194,7 +194,7 @@ figcaption {
 .contact-in {
   display: block;
   border-style: solid;
-  border-color: #264653;
+  border-color: #5b85aa;
   padding: 5px;
 }
 
@@ -202,7 +202,7 @@ figcaption {
   text-align: left;
   padding: 0;
   display: flex;
-  border: #264653;
+  border: #5b85aa;
 }
 
 form{
@@ -227,7 +227,7 @@ button {
   font-size: 1.1rem;
   border: none;
   padding: 0.76rem;
-  background-color: #264653;
+  background-color: #5b85aa;
   color: aliceblue;
   border-radius: .6rem;
 }
@@ -312,7 +312,7 @@ button:hover {
   font-size: 1.1rem;
   border: none;
   padding: 0.76rem;
-  background-color: #264653;
+  background-color: #5b85aa;
   color: aliceblue;
   border-radius: .6rem;
   justify-content: center;
@@ -359,7 +359,7 @@ table, th, td {
   font-size: 1.1rem;
   border: none;
   padding: 0.76rem;
-  background-color: #264653;
+  background-color: #5b85aa;
   color: aliceblue;
   border-radius: .6rem;
   justify-content: center;
