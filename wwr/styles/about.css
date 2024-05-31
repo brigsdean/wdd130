@@ -56,7 +56,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 30px;
   color: white;
   background-color: rgba(100, 98, 98);
-  text-shadow: 2px 2px 4px #8a858500;
+  text-shadow: 2px 2px 4px #5b85aa;
 }
 
 .hero-article {
@@ -212,7 +212,7 @@ form{
   padding: 1rem;
   border: #6393e7;
   border-radius: 0.5rem;
-  background-color: #111512;
+  background-color: #5b85aa;
 }
 
 fieldset {
@@ -336,7 +336,7 @@ table, th, td {
 
 .it {
   width: 98%;
-  background-color: #060505e7;
+  background-color: #5b85aa;
   color: white;
   border-radius: 10px;
 }
