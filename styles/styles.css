@@ -1,0 +1,112 @@
+:root {
+    --primary-color: rgb(141, 194, 232);
+    --secondary-color: rgb(53, 9, 9);
+    --padding: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+.grid,
+footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+nav {
+    text-align: center;
+    background-color: var(--primary-color);
+    padding: var(--padding);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: var(--secondary-color);
+    padding: 0.5rem;
+}
+
+h1 {
+    color: var(--secondary-color);
+    border-bottom: 2px solid var(--secondary-color);
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+}
+
+main {
+    grid-column: 2 / 3;
+    margin: 1rem;
+    max-width: 850px;
+}
+
+main img {
+    width: 250px;
+    height: auto;
+    border: 2px solid var(--secondary-color);
+    box-shadow: 10px 10px 5px gray;
+    float: right;
+    margin: 15px 0 5px 1rem;
+    padding: 10px;
+}
+
+p {
+    margin: 0.5rem;
+    color: var(--secondary-color);
+    padding: 0;
+}
+
+aside {
+    width: 20rem;
+    text-align: center;
+    position: relative;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background-color: #eee;
+    color: var(--secondary-color)
+}
+
+aside h2 {
+    position: absolute;
+    right: 78px;
+    color: rgb(249, 209, 209);
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+footer {
+    background-color: var(--primary-color);
+    padding: var(--padding);
+    border-top: 2px dashed var(--secondary-color);
+    text-align: center;
+    margin-top: 20px;
+}
+
+/*Class Selectors*/
+
+.box {
+    margin: 1rem;
+    border: 1px solid var(--secondary-color);
+    padding: 1rem;
+    background-color: #eee;
+    color: var(--secondary-color);
+}
+
+.indent {
+    padding-left: 2.25rem;
+}
